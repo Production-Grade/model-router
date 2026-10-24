@@ -46,4 +46,11 @@ The keyword lists are constants at the top of [`hooks/register.ts`](hooks/regist
 `classify()` is exported and tested in [`hooks/router.test.ts`](hooks/router.test.ts). Add your
 own cases there.
 
+## More from Production Grade
+
+Walkthroughs of these mods and of how I run Claude Code on real work:
+
+- YouTube: [@productiongradeai](https://www.youtube.com/@productiongradeai)
+- Substack: [productiongrade.substack.com](https://productiongrade.substack.com)
+
 Part of [Claude Lean Mods](https://github.com/Production-Grade/claude-lean-mods). MIT licence.
