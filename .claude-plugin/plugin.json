@@ -4,7 +4,8 @@
   "description": "Picks Haiku, Sonnet or the parent's model for each subagent and new session from what the task is, and starts sessions at medium effort.",
   "author": {
     "name": "Production Grade",
-    "url": "https://productiongrade.substack.com"
+    "url": "https://productiongrade.substack.com",
+    "email": "support@productiongrade.tech"
   },
   "license": "MIT",
   "homepage": "https://github.com/Production-Grade/model-router",
