@@ -1,0 +1,13 @@
+{
+  "name": "model-router",
+  "owner": {
+    "name": "Production Grade"
+  },
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./",
+      "description": "Picks Haiku, Sonnet or the parent's model for each subagent and new session from what the task is, and starts sessions at medium effort."
+    }
+  ]
+}

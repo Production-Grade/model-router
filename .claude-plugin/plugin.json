@@ -1,0 +1,9 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Picks Haiku, Sonnet or the parent's model for each subagent and new session from what the task is, and starts sessions at medium effort.",
+  "author": {
+    "name": "Production Grade"
+  },
+  "license": "MIT"
+}
