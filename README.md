@@ -46,6 +46,12 @@ The keyword lists are constants at the top of [`hooks/register.ts`](hooks/regist
 `classify()` is exported and tested in [`hooks/router.test.ts`](hooks/router.test.ts). Add your
 own cases there.
 
+## What it hooks and changes
+
+- `agent.spawn`: when no model was chosen, sets `model` and, for Haiku, appends the budget line to the prompt. Nothing else about the agent changes.
+- `tool.call` on the desktop app's `start_session` only: fills `model` and `effort` when they're empty.
+- Writes no files.
+
 ## More from Production Grade
 
 Walkthroughs of these mods and of how I run Claude Code on real work:
